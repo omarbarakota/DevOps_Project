@@ -1,0 +1,5 @@
+#This file will have all unnecessary file that're not needed to be uploaded
+
+__pycache__
+venv
+.pytest_cache
