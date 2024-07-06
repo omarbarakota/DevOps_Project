@@ -120,20 +120,20 @@ gunicorn wsgi
 
 ````bash
 DevOps Project
-     │
-     └── main.py                   # Main Flask application file
-        ├── templates/             # HTML templates (separation of concerns)
-        │   └── index.html         # Main page template
-        │   └── Generate.html      # Page that generates QR Code template
-        │   └── Password.html      # Page that generates Password template
-        │   └── Weather.html       # Page that Get the weather of a city
-        ├── tests/
-        │   └── test_qr.py         # Test QR generation feature for the application
-        │   └── test_tasks.py      # Test Do do list features for the application
-        │   └── test_time.py       # Test time display for the application
-        │   └── test_weather.py    # Test weather display feature for the application
-        │   └── test_password.py   # Test suite for the application
-        └── requirements.txt       # List of dependencies
+      │
+      └── main.py                   # Main Flask application file
+      ├── templates/             # HTML templates (separation of concerns)
+      │   └── index.html         # Main page template
+      │   └── Generate.html      # Page that generates QR Code template
+      │   └── Password.html      # Page that generates Password template
+      │   └── Weather.html       # Page that Get the weather of a city
+      ├── tests/
+      │   └── test_qr.py         # Test QR generation feature for the application
+      │   └── test_tasks.py      # Test Do do list features for the application
+      │   └── test_time.py       # Test time display for the application
+      │   └── test_weather.py    # Test weather display feature for the application
+      │   └── test_password.py   # Test suite for the application
+      └── requirements.txt       # List of dependencies
 ````
 
 ## Future notes if you will edit
