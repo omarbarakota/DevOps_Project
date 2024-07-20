@@ -1,7 +1,5 @@
 import pytest
 import string
-import sys         
-sys.path.append('..') 
 from main import app
 
 @pytest.fixture

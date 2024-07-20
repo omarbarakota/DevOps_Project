@@ -1,9 +1,7 @@
 import pytest
 from flask import Flask
 from unittest.mock import patch,MagicMock
-import requests
-import sys         
-sys.path.append('..') 
+#import requests
 from main import app
 
 mock_get=MagicMock()

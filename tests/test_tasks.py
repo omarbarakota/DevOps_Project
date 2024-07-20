@@ -2,8 +2,6 @@
 import pytest
 from flask import Flask
 from datetime import datetime
-import sys         
-sys.path.append('..') 
 from main import app, tasks
 
 @pytest.fixture

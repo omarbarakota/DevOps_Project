@@ -1,8 +1,6 @@
 import pytest
 from io import BytesIO
-import base64
-import sys         
-sys.path.append('..') 
+import base64 
 from main import app
 @pytest.fixture
 def client():
