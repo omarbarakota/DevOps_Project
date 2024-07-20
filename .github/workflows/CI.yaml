@@ -36,7 +36,7 @@ jobs:
       run: echo "${{ secrets.DOCKER_PASS }}" | docker login -u omarbarakota --password-stdin
 
     - name: Build Docker image
-      run: docker build -t omarbarakota/dockerized_project:latest
+      run: docker build -t omarbarakota/dockerized_project:latest .
 
     - name: Push Docker image
       run: docker push omarbarakota/dockerized_project:latest
