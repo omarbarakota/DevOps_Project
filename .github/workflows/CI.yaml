@@ -27,6 +27,7 @@ jobs:
   build-and-push-docker:
     runs-on: ubuntu-latest 
     need: test
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
